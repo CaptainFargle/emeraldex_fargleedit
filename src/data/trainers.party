@@ -4803,21 +4803,21 @@ Level: 12
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Tackle
 - Defense Curl
-- Rock Throw
+- Sand Tomb
 - Rock Tomb
 
-Geodude
+Geodude_Alola
 Level: 12
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Tackle
 - Defense Curl
-- Rock Throw
+- Thunder Wave
 - Rock Tomb
 
 Nosepass @ Oran Berry
 Level: 15
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Block
+- Sandstorm
 - Harden
 - Tackle
 - Rock Tomb
@@ -5024,7 +5024,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Steel Wing
 - Aerial Ace
 
-Altaria @ Oran Berry
+Altaria @ Sitrus Berry
 Level: 33
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
@@ -5040,39 +5040,49 @@ Gender: Male
 Music: Female
 Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Powerful Status
 
-Claydol
-Level: 41
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Earthquake
-- Ancient Power
-- Psychic
-- Light Screen
+Claydol @ Light Clay  
+Ability: Levitate  
+Level: 41  
+Tera Type: Ground  
+EVs: 252 HP / 128 Def / 128 SpD  
+Adamant Nature  
+- Earthquake  
+- Reflect  
+- Light Screen  
+- Zen Headbutt
 
-Xatu
-Level: 41
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Psychic
-- Sunny Day
-- Confuse Ray
+Xatu @ Focus Sash  
+Ability: Synchronize  
+Level: 41  
+Tera Type: Psychic  
+EVs: 64 HP / 32 Def / 128 SpA / 32 SpD / 252 Spe  
+Nature: Timid    
+- Psychic  
+- Air Slash  
+- Tailwind  
 - Calm Mind
 
-Lunatone @ Sitrus Berry
-Level: 42
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Light Screen
-- Psychic
-- Hypnosis
-- Calm Mind
+Lunatone @ Sitrus Berry  
+Ability: Levitate  
+Level: 44   
+EVs: 64 HP / 32 Def / 252 SpA / 32 SpD / 128 Spe  
+Nature: Modest  
+- Calm Mind  
+- Psychic  
+- Moonblast  
+- Grass Knot
 
-Solrock @ Sitrus Berry
-Level: 42
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Sunny Day
-- Solar Beam
-- Psychic
-- Flamethrower
+Solrock @ Sitrus Berry  
+Ability: Levitate  
+Level: 44  
+EVs: 64 HP / 252 Atk / 32 Def / 32 SpD / 128 Spe  
+Nature: Adamant  
+- Swords Dance  
+- Earthquake  
+- Zen Headbutt  
+- Rock Slide
 
 === TRAINER_JUAN_1 ===
 Name: JUAN
@@ -5086,9 +5096,9 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Luvdisc
 Level: 41
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 31 Spe
 - Water Pulse
-- Attract
+- Rain Dance
 - Sweet Kiss
 - Flail
 
@@ -5096,7 +5106,7 @@ Whiscash
 Level: 41
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Rain Dance
-- Water Pulse
+- Waterfall
 - Amnesia
 - Earthquake
 
@@ -5119,7 +5129,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 Kingdra @ Chesto Berry
 Level: 46
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Water Pulse
+- Waterfall
 - Double Team
 - Ice Beam
 - Rest
